@@ -34,9 +34,6 @@ const Blog = () => {
     image: string;
     desc: string;
   }>();
-  const closeModal = () => {
-    setIsOpen(false);
-  };
 
   const openModal = (item: { title: string; image: string; desc: string }) => {
     setIsOpen((pre) => !pre);
